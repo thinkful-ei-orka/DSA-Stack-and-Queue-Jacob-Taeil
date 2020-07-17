@@ -26,9 +26,9 @@ class Stack {
 
 1 - 3 - 5;
 
-1 - 3 - 5; 
+1 - 3 - 5;
 
-5; 
+5;
 
 class stackQueue {
     constructor() {
@@ -64,7 +64,7 @@ class stackQueue {
 function displayStackQueue(queue) {
     let stack = queue.last;
     console.log(queue);
-    display(stack);
+    return display(stack);
 }
 
 function peek(stack) {
